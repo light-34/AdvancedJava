@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Apachee poi demo for calling exel file">
-      <change afterPath="$PROJECT_DIR$/FruitColors.xlsx" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Apachee poi demo for creating exel file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/stringescapeutil/StringEscapeUtilDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FruitsColors.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorMain.java" afterDir="false" />
     </list>
@@ -15,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FruitColorMain">
+  <component name="RunManager" selected="Application.StringEscapeUtilDemo">
     <configuration name="FruitColorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.adv.exelfile.FruitColorMain" />
       <module name="advanced" />
@@ -108,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.concurrency.executorpool.TaskMain" />
+    <configuration name="StringEscapeUtilDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.stringescapeutil.StringEscapeUtilDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.concurrency.executorpool.*" />
+          <option name="PATTERN" value="org.adv.stringescapeutil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringEscapeUtilDemo" />
         <item itemvalue="Application.FruitColorMain" />
         <item itemvalue="Application.TreeMapDemo" />
         <item itemvalue="Application.FunctionDemo" />
         <item itemvalue="Application.MapsDemo" />
-        <item itemvalue="Application.TaskMain" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +220,10 @@
       <workItem from="1698069109167" duration="3121000" />
       <workItem from="1698081621529" duration="362000" />
       <workItem from="1698090738401" duration="3082000" />
-      <workItem from="1698149591085" duration="9583000" />
+      <workItem from="1698149591085" duration="9751000" />
+      <workItem from="1698177830032" duration="3394000" />
+      <workItem from="1698266889820" duration="1953000" />
+      <workItem from="1698414866886" duration="2809000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -233,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698167945407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Apachee poi demo for creating exel file">
+      <created>1698171251203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698171251203</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +255,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit on This project" />
     <MESSAGE value="Apachee poi demo for calling exel file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apachee poi demo for calling exel file" />
+    <MESSAGE value="Apachee poi demo for creating exel file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apachee poi demo for creating exel file" />
   </component>
 </project>

@@ -1,11 +1,21 @@
 package org.adv.exelfile;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 public class FruitColorMain {
     public static void main(String[] args) {
         FruitColorBO bo = new FruitColorBO();
-        bo.createExelFile(bo.readExelFile(new File("FruitColors.xlsx")), "FreshFruit" );
+
+        Map<Integer, String []> map = new HashMap<>();
+        map.put(1, new String[] {"Cezmi", "Aktepe", "40"});
+        map.put(2, new String[] {"Zuhal", "Aktepe", "45"});
+
+        bo.createGenericExelFile(map, "Personal", 2);
+
+
+        /*bo.createExelFile(bo.readExelFile(new File("FruitColors.xlsx")), "FreshFruit" );
         try {
             Thread.sleep(5000);
         } catch (Exception ex) {
@@ -14,6 +24,6 @@ public class FruitColorMain {
 
         bo.readExelFile(new File("FreshFruit.xlsx")).forEach( fruit -> {
             System.out.println("Fruit : " + fruit.getFruitName() + " and Color : " + fruit.getFruitColor());
-        });
+        });*/
     }
 }

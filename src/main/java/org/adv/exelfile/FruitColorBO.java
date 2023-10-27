@@ -1,16 +1,20 @@
 package org.adv.exelfile;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.streaming.SXSSFCell;
+import org.apache.poi.xssf.streaming.SXSSFRow;
+import org.apache.poi.xssf.streaming.SXSSFSheet;
+import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class FruitColorBO {
     public List<FruitColorModel> readExelFile(File file) {
@@ -70,6 +74,33 @@ public class FruitColorBO {
                 cell2.setCellValue(fruit.getFruitColor());
             }
 
+            workbook.write(outputStream);
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public <K, V> void createGenericExelFile(Map<K, V[]> map, String fileName, int sheetCount) {
+        String fileSuffix = ".xlsx";
+        try (
+                FileOutputStream outputStream = new FileOutputStream(fileName + fileSuffix);
+                SXSSFWorkbook workbook = new SXSSFWorkbook()
+        ) {
+            for (int i = 0; i < sheetCount; i++) {
+                SXSSFSheet sheet = workbook.createSheet("Sheet " + (i + 1));
+                Collection<V[]> values = map.values();
+                int j = 0;
+                for (V [] value : values) {
+                    SXSSFRow row = sheet.createRow((j));
+                    int columIndex = 0;
+                    for (V data: value) {
+                        SXSSFCell cell = row.createCell(columIndex++);
+                        cell.setCellValue((String) data);
+                    }
+                    j++;
+                }
+            }
             workbook.write(outputStream);
 
         } catch (Exception ex) {
