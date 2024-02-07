@@ -13,5 +13,10 @@ public class StringEscapeUtilDemo {
         String replace = text.replaceAll("\\x1A", "");
 
         System.out.println(StringEscapeUtils.escapeJava(replace));
+
+        String str = "ABC";
+        System.out.println(str.length());
+        //String change = str.substring(0, 3);
+        //System.out.println(change);
     }
 }
