@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="StringEscapeUtil in Apache text implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/guavacache/GuavaCacheDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Guava and String Escape added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/collections/CollectionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/collections/ListIteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/dto/EmployeePrivate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/FacadeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/MultimediaFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/VideoPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/fasterxml/ObjectMapperDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/fasterxml/ObjectMapperMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/labels/LabelsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsDataUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stringescapeutil/StringEscapeUtilDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stringescapeutil/StringEscapeUtilDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.StringEscapeUtilDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CollectionsDemo.executor": "Run",
+    "Application.FacadeDemo.executor": "Run",
+    "Application.GuavaCacheDemo.executor": "Run",
+    "Application.LabelsDemo.executor": "Run",
+    "Application.ListIteratorDemo.executor": "Run",
+    "Application.ObjectMapperDemo.executor": "Debug",
+    "Application.ReflectionDemo.executor": "Run",
+    "Application.StringEscapeUtilDemo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.adv.greeting" />
@@ -70,13 +87,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuavaCacheDemo">
-    <configuration name="ColoredText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.coloredtext.ColoredText" />
+  <component name="RunManager" selected="Application.ReflectionDemo">
+    <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.collections.CollectionsDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.coloredtext.*" />
+          <option name="PATTERN" value="org.adv.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.datetime.DateTimeDemo" />
+    <configuration name="FacadeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.facade.FacadeDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.datetime.*" />
+          <option name="PATTERN" value="org.adv.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuavaCacheDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.guavacache.GuavaCacheDemo" />
+    <configuration name="LabelsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.labels.LabelsDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.guavacache.*" />
+          <option name="PATTERN" value="org.adv.labels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.lists.ListDemo" />
+    <configuration name="ListIteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.collections.ListIteratorDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.lists.*" />
+          <option name="PATTERN" value="org.adv.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEscapeUtilDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.stringescapeutil.StringEscapeUtilDemo" />
+    <configuration name="ReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.reflections.ReflectionDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.stringescapeutil.*" />
+          <option name="PATTERN" value="org.adv.reflections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuavaCacheDemo" />
-        <item itemvalue="Application.StringEscapeUtilDemo" />
-        <item itemvalue="Application.ColoredText" />
-        <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.DateTimeDemo" />
+        <item itemvalue="Application.ReflectionDemo" />
+        <item itemvalue="Application.CollectionsDemo" />
+        <item itemvalue="Application.ListIteratorDemo" />
+        <item itemvalue="Application.LabelsDemo" />
+        <item itemvalue="Application.FacadeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +266,13 @@
       <workItem from="1701194222568" duration="1433000" />
       <workItem from="1701355242486" duration="720000" />
       <workItem from="1704920926929" duration="1341000" />
-      <workItem from="1707332118070" duration="1802000" />
+      <workItem from="1707332118070" duration="2147000" />
+      <workItem from="1708445066952" duration="1554000" />
+      <workItem from="1708618606175" duration="11386000" />
+      <workItem from="1708968034487" duration="894000" />
+      <workItem from="1709039066770" duration="6299000" />
+      <workItem from="1709135094180" duration="1644000" />
+      <workItem from="1709232421084" duration="7083000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -279,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698430379716</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Guava and String Escape added">
+      <option name="closed" value="true" />
+      <created>1707334250803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707334250803</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +332,7 @@
     <MESSAGE value="Apachee poi demo for calling exel file" />
     <MESSAGE value="Apachee poi demo for creating exel file" />
     <MESSAGE value="StringEscapeUtil in Apache text implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringEscapeUtil in Apache text implemented" />
+    <MESSAGE value="Guava and String Escape added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guava and String Escape added" />
   </component>
 </project>
