@@ -51,4 +51,21 @@ public class Employee {
     public void setSalary(int salary) {
         this.salary = salary;
     }
+
+    class Department {
+        private String name;
+
+        public Department(String name) {
+            this.name = name;
+        }
+    }
+
+    class Tasks {
+        private String name;
+
+        public Tasks(String name) {
+            this.name = name;
+        }
+    }
+
 }

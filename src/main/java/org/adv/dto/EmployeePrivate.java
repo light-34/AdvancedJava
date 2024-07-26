@@ -22,4 +22,9 @@ public class EmployeePrivate {
     private void setName(String name) {
         this.name = name;
     }
+
+    private String showName(String name) {
+        setName(name);
+        return getName();
+    }
 }

@@ -1,6 +1,11 @@
 package org.adv.stream;
 
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.Collections;
 import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FunctionDemo {
     public static void main(String[] args) {
@@ -25,5 +30,11 @@ public class FunctionDemo {
 
         System.out.println("Identity : " + Function.identity().apply(100));
         System.out.println("Identity : " + Function.identity().apply("Muhsin"));
+
+        String cez = Collections.nCopies(5, "?").stream().collect(Collectors.joining(",")); //another way
+//        String cez = String.join(",", Collections.nCopies(5, "?"));
+//        String cez = StringUtils.join(Collections.nCopies(5, "?"), ",");
+        System.out.println(cez);
+
     }
 }

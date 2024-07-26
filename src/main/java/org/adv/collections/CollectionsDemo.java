@@ -13,8 +13,15 @@ public class CollectionsDemo {
         map.put(2, "Second Value");
         //map.put(3, null);
 
-        putIfAbsentDemo(map);
+        //putIfAbsentDemo(map);
         //computeIfAbsentDemo(map);
+        Map<Integer, List<String>> mp = new HashMap<>();
+        mp.put(1, List.of("One"));
+        mp.put(2, List.of("Two"));
+
+        mp.putIfAbsent(3, null);
+
+        mp.values().forEach(System.out::println);
 
     }
 
