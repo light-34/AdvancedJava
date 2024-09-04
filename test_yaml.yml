@@ -1,0 +1,14 @@
+# This is a start of a yaml file
+--- # this tree dashes signals the start of a document
+maps:
+  fruits:
+    fru1: apple
+    fru2: orange
+  vegetables:
+    veg1: tomato
+    veg2: cucumber
+variables:
+  stringVar: Hello Cezmi
+  intVar: 123
+  booleanVar: true
+  floatVar: 3.245

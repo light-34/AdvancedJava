@@ -4,56 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="ObjectMapper, Reflections, Collections, Facade added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/UUID/UuidDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/bufferedreader/BufferedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/enums/EnumsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/enums/Plants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/ExcelRowModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/ExcelSheetModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/AutomobileFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/Automobiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/AutomobilesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/Sedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/formatter/CountryPhoneNumberCodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/formatter/PhoneNumberFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/formatter/ipsum.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/imageprocess/ImageMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/imageprocess/ImageProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/matrix/MatrixDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/matrix/MatrixMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/nullable/NullableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/SerialiazibleUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/SerializableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/shareagreement/ShareAgreementColumnV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/shareagreement/ShareAgreementRowMapperV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/shareagreement/ShareSummaryQueryAssemblerV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/specialcharactersql/RunSpecialCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/statistics/StatisticsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/statistics/StatisticsMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/summarystatistics/IntSummaryStatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/timepackage/JavaTimeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/unittestdemo/UnitTestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestIntSummaryStatistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UnitTestTest.java" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Many code libraries are added.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/yaml/ReadYamlDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_yaml.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/bufferedreader/BufferedReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/bufferedreader/BufferedReaderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/collections/CollectionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/dto/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/dto/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/dto/EmployeePrivate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/dto/EmployeePrivate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsDataUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/tryPackage/IfTryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/tryPackage/IfTryDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +65,7 @@
     "Application.NullableDemo.executor": "Run",
     "Application.ObjectMapperDemo.executor": "Debug",
     "Application.PhoneNumberFormatter.executor": "Run",
+    "Application.ReadYamlDemo.executor": "Run",
     "Application.ReflectionDemo.executor": "Debug",
     "Application.ReflectionsSubClass.executor": "Debug",
     "Application.RunSpecialCharacters.executor": "Run",
@@ -116,6 +73,7 @@
     "Application.StatisticsDemo.executor": "Run",
     "Application.StringEscapeUtilDemo.executor": "Run",
     "Application.TaxationMain.executor": "Debug",
+    "Application.TestThings.executor": "Run",
     "Application.UuidDemo.executor": "Run",
     "Application.uuidDemo.executor": "Run",
     "JUnit.TestIntSummaryStatistics.executor": "Run",
@@ -150,7 +108,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImageMain">
+  <component name="RunManager" selected="Application.ReadYamlDemo">
     <configuration name="FruitColorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.adv.exelfile.FruitColorMain" />
       <module name="advanced" />
@@ -203,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.reflections.ReflectionDemo" />
+    <configuration name="ReadYamlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.yaml.ReadYamlDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.reflections.*" />
+          <option name="PATTERN" value="org.adv.yaml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,51 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionsSubClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.reflections.ReflectionsSubClass" />
+    <configuration name="TestThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.testthings.TestThings" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.reflections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunSpecialCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.specialcharactersql.RunSpecialCharacters" />
-      <module name="advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.adv.specialcharactersql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunSpecialCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.specialcharactersql.RunSpecialCharacters" />
-      <module name="advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.adv.specialcharactersql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaxationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.taxcalculator.TaxationMain" />
-      <module name="advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.adv.taxcalculator.*" />
+          <option name="PATTERN" value="org.adv.testthings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,19 +189,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadYamlDemo" />
+        <item itemvalue="Application.TestThings" />
         <item itemvalue="Application.ImageMain" />
         <item itemvalue="Application.FruitColorMain" />
         <item itemvalue="Application.JavaTimeDemo" />
-        <item itemvalue="Application.TaxationMain" />
-        <item itemvalue="Application.RunSpecialCharacters" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -440,7 +359,16 @@
       <workItem from="1721218560313" duration="1463000" />
       <workItem from="1721823180506" duration="1147000" />
       <workItem from="1721909907083" duration="17166000" />
-      <workItem from="1721996917647" duration="1274000" />
+      <workItem from="1721996917647" duration="1534000" />
+      <workItem from="1722264040681" duration="645000" />
+      <workItem from="1722358952946" duration="41000" />
+      <workItem from="1722361423755" duration="1499000" />
+      <workItem from="1723206541851" duration="639000" />
+      <workItem from="1723207981976" duration="188000" />
+      <workItem from="1723212660410" duration="222000" />
+      <workItem from="1723233663998" duration="625000" />
+      <workItem from="1724945425441" duration="44000" />
+      <workItem from="1725463091137" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -486,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709239985953</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Many code libraries are added.">
+      <option name="closed" value="true" />
+      <created>1721998413774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721998413774</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +446,8 @@
     <MESSAGE value="StringEscapeUtil in Apache text implemented" />
     <MESSAGE value="Guava and String Escape added" />
     <MESSAGE value="ObjectMapper, Reflections, Collections, Facade added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ObjectMapper, Reflections, Collections, Facade added" />
+    <MESSAGE value="Many code libraries are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Many code libraries are added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,11 +491,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java</url>
           <line>154</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/adv/imageprocess/ImageProcess.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
