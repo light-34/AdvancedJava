@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="FILE_LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss}{America/New_York} [%t] %-5level %logger{36} - %msg  - %l %n
+        </Property>
+        <Property name="CONSOLE_LOG_PATTERN">
+            %highlight{%d{MM-dd HH:mm:ss.SSS}{America/New_York} %m %throwable{} - %5p (%l) %n}
+        </Property>
+        <Property name="LOG_FILE_PATH">
+            AdvancedJavaLogs/application.log
+        </Property>
+    </Properties>
+    <Appenders>
+        <!--Console Appenders to show logs in console -->
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${CONSOLE_LOG_PATTERN}" />
+        </Console>
+        <File name="AdvancedJavaFileAppender" fileName="${LOG_FILE_PATH}" append="true">
+            <PatternLayout pattern="${FILE_LOG_PATTERN}"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="advanced.java" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="AdvancedJavaFileAppender" />
+        </Root>
+    </Loggers>
+
+</Configuration>
+
+<!--
+pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"
+
+Breakdown of the Pattern:
+%d{yyyy-MM-dd HH:mm:ss}:
+
+%d: Represents the date and time of the log event.
+{yyyy-MM-dd HH:mm:ss}: Specifies the format of the date and time:
+yyyy: Four-digit year (e.g., 2024).
+MM: Two-digit month (e.g., 10 for October).
+dd: Two-digit day of the month (e.g., 02 for the 2nd of the month).
+HH: Two-digit hour in 24-hour format (e.g., 15 for 3 PM).
+mm: Two-digit minutes (e.g., 34 for 34 minutes past the hour).
+ss: Two-digit seconds (e.g., 12 for 12 seconds).
+This means that the date and time will be printed in the format 2024-10-02 15:34:12.
+[%t]:
+
+%t: This represents the thread name that is executing the code.
+[]: The thread name will be enclosed in square brackets. For example, it could look like [main] if the main thread is running the code.
+%-5level:
+
+%level: This represents the logging level of the message (e.g., INFO, DEBUG, WARN, ERROR).
+%-5level: This formats the log level to be left-aligned and padded to a width of 5 characters.
+For example, INFO would appear as INFO (padded with a space), and ERROR would appear as ERROR (no padding needed because it already has 5 characters).
+%logger{36}:
+
+%logger: This represents the logger name or class name that generated the log message.
+{36}: Limits the length of the logger name to a maximum of 36 characters. If the logger name is longer than 36 characters, it will be truncated.
+-:
+
+A literal hyphen used to visually separate different parts of the log message. It doesn't have any special meaning beyond being a separator.
+%msg:
+
+%msg: This represents the actual log message provided by the code. This is the part of the log entry that contains the custom message you're logging, like "Application started" or "Processing order 12345".
+%n:
+
+%n: This represents a newline character. It ensures that each log entry is printed on a new line in the log file or console output.
+-->

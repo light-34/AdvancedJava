@@ -1,0 +1,36 @@
+2024-10-02 12:42:45 [main] INFO  org.adv.logdemo.LogDemo - Application Started
+ org.adv.logdemo.LogDemo.main(LogDemo.java:11)2024-10-02 12:42:45 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero
+ org.adv.logdemo.LogDemo.main(LogDemo.java:20)2024-10-02 12:42:45 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message
+ org.adv.logdemo.LogDemo.main(LogDemo.java:23)2024-10-02 12:42:45 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated
+ org.adv.logdemo.LogDemo.main(LogDemo.java:24)2024-10-02 12:44:36 [main] INFO  org.adv.logdemo.LogDemo - Application Started
+ org.adv.logdemo.LogDemo.main(LogDemo.java:11)2024-10-02 12:44:36 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero
+ org.adv.logdemo.LogDemo.main(LogDemo.java:20)2024-10-02 12:44:36 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message
+ org.adv.logdemo.LogDemo.main(LogDemo.java:23)2024-10-02 12:44:36 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated
+ org.adv.logdemo.LogDemo.main(LogDemo.java:24)2024-10-02 12:45:05 [main] INFO  org.adv.logdemo.LogDemo - Application Started
+ org.adv.logdemo.LogDemo.main(LogDemo.java:11)2024-10-02 12:45:05 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero
+ org.adv.logdemo.LogDemo.main(LogDemo.java:20)2024-10-02 12:45:05 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message
+ org.adv.logdemo.LogDemo.main(LogDemo.java:23)2024-10-02 12:45:05 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated
+ org.adv.logdemo.LogDemo.main(LogDemo.java:24)2024-10-02 12:45:27 [main] INFO  org.adv.logdemo.LogDemo - Application Started
+ org.adv.logdemo.LogDemo.main(LogDemo.java:11)2024-10-02 12:45:27 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero
+ org.adv.logdemo.LogDemo.main(LogDemo.java:20)2024-10-02 12:45:27 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message
+ org.adv.logdemo.LogDemo.main(LogDemo.java:23)2024-10-02 12:45:27 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated
+ org.adv.logdemo.LogDemo.main(LogDemo.java:24)2024-10-02 12:46:05 [main] INFO  org.adv.logdemo.LogDemo - Application Started
+ org.adv.logdemo.LogDemo.main(LogDemo.java:11)2024-10-02 12:46:05 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero
+ org.adv.logdemo.LogDemo.main(LogDemo.java:20)2024-10-02 12:46:05 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message
+ org.adv.logdemo.LogDemo.main(LogDemo.java:23)2024-10-02 12:46:05 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated
+ org.adv.logdemo.LogDemo.main(LogDemo.java:24)2024-10-02 12:46:45 [main] INFO  org.adv.logdemo.LogDemo - Application Started
+ org.adv.logdemo.LogDemo.main(LogDemo.java:11)2024-10-02 12:46:45 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero
+ org.adv.logdemo.LogDemo.main(LogDemo.java:20)2024-10-02 12:46:45 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message
+ org.adv.logdemo.LogDemo.main(LogDemo.java:23)2024-10-02 12:46:45 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated
+ org.adv.logdemo.LogDemo.main(LogDemo.java:24)2024-10-02 12:49:11 [main] INFO  org.adv.logdemo.LogDemo - Application Started org.adv.logdemo.LogDemo.main(LogDemo.java:11) 
+2024-10-02 12:49:11 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero org.adv.logdemo.LogDemo.main(LogDemo.java:20) 
+2024-10-02 12:49:11 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message org.adv.logdemo.LogDemo.main(LogDemo.java:23) 
+2024-10-02 12:49:11 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated org.adv.logdemo.LogDemo.main(LogDemo.java:24) 
+2024-10-02 12:49:56 [main] INFO  org.adv.logdemo.LogDemo - Application Started  - org.adv.logdemo.LogDemo.main(LogDemo.java:11) 
+2024-10-02 12:49:56 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero  - org.adv.logdemo.LogDemo.main(LogDemo.java:20) 
+2024-10-02 12:49:56 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message  - org.adv.logdemo.LogDemo.main(LogDemo.java:23) 
+2024-10-02 12:49:56 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated  - org.adv.logdemo.LogDemo.main(LogDemo.java:24) 
+2024-10-02 13:01:13 [main] INFO  org.adv.logdemo.LogDemo - Application Started  - org.adv.logdemo.LogDemo.main(LogDemo.java:11) 
+2024-10-02 13:01:13 [main] ERROR org.adv.logdemo.LogDemo - Arithmetic Exception occured / by zero  - org.adv.logdemo.LogDemo.main(LogDemo.java:20) 
+2024-10-02 13:01:13 [main] WARN  org.adv.logdemo.LogDemo - This is a warning log message  - org.adv.logdemo.LogDemo.main(LogDemo.java:23) 
+2024-10-02 13:01:13 [main] INFO  org.adv.logdemo.LogDemo - Application Terminated  - org.adv.logdemo.LogDemo.main(LogDemo.java:24) 

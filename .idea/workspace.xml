@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Many code libraries are added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/yaml/ReadYamlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_yaml.yml" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Adding yaml demo">
+      <change afterPath="$PROJECT_DIR$/AdvancedJavaLogs/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/allaboutcrypto/CalculateDailyProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/logdemo/LogDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/DecimalFormatiingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/NumberFormatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +48,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AutomobilesMain.executor": "Run",
-    "Application.BufferedMain.executor": "Run",
-    "Application.CollectionsDemo.executor": "Run",
-    "Application.EnumsDemo.executor": "Run",
-    "Application.FacadeDemo.executor": "Run",
-    "Application.FruitColorMain.executor": "Run",
-    "Application.FunctionDemo.executor": "Run",
-    "Application.GuavaCacheDemo.executor": "Run",
-    "Application.IfTryDemo.executor": "Run",
-    "Application.ImageMain.executor": "Debug",
-    "Application.IntSummaryStatDemo.executor": "Debug",
-    "Application.JavaTimeDemo.executor": "Run",
-    "Application.LabelsDemo.executor": "Run",
-    "Application.ListIteratorDemo.executor": "Run",
-    "Application.MatrixDemo.executor": "Run",
-    "Application.NullableDemo.executor": "Run",
-    "Application.ObjectMapperDemo.executor": "Debug",
-    "Application.PhoneNumberFormatter.executor": "Run",
-    "Application.ReadYamlDemo.executor": "Run",
-    "Application.ReflectionDemo.executor": "Debug",
-    "Application.ReflectionsSubClass.executor": "Debug",
-    "Application.RunSpecialCharacters.executor": "Run",
-    "Application.SerializableDemo.executor": "Run",
-    "Application.StatisticsDemo.executor": "Run",
-    "Application.StringEscapeUtilDemo.executor": "Run",
-    "Application.TaxationMain.executor": "Debug",
-    "Application.TestThings.executor": "Run",
-    "Application.UuidDemo.executor": "Run",
-    "Application.uuidDemo.executor": "Run",
-    "JUnit.TestIntSummaryStatistics.executor": "Run",
-    "JUnit.TestIntSummaryStatistics.testIntSummaryStatMin.executor": "Run",
-    "JUnit.TestIntSummaryStatistics.testIntSummaryStatSum.executor": "Run",
-    "JUnit.UnitTestTest.testAdd.executor": "Run",
-    "JUnit.UnitTestTest.testDivide.executor": "Run",
-    "JUnit.UnitTestTest.testFormatDateTime.executor": "Run",
-    "JUnit.UnitTestTest.testIsEqual.executor": "Run",
-    "JUnit.UnitTestTest.testIsEqualFalse.executor": "Run",
-    "JUnit.UnitTestTest.testThrowable.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AutomobilesMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BufferedMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculateDailyProfit.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CollectionsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecimalFormatiingDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EnumsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FacadeDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FruitColorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuavaCacheDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfTryDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImageMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IntSummaryStatDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JavaTimeDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LabelsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIteratorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NullableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberFormatDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectMapperDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PhoneNumberFormatter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadYamlDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReflectionDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReflectionsSubClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RunSpecialCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StatisticsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEscapeUtilDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaxationMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestThings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UuidDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.uuidDemo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestIntSummaryStatistics.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestIntSummaryStatistics.testIntSummaryStatMin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestIntSummaryStatistics.testIntSummaryStatSum.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testDivide.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testFormatDateTime.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testIsEqual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testIsEqualFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testThrowable.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.adv.greeting" />
@@ -108,13 +116,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadYamlDemo">
-    <configuration name="FruitColorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.exelfile.FruitColorMain" />
+  <component name="RunManager" selected="Application.LogDemo">
+    <configuration name="CalculateDailyProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.allaboutcrypto.CalculateDailyProfit" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.exelfile.*" />
+          <option name="PATTERN" value="org.adv.allaboutcrypto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.imageprocess.ImageMain" />
+    <configuration name="DecimalFormatiingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.numberformatting.DecimalFormatiingDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.imageprocess.*" />
+          <option name="PATTERN" value="org.adv.numberformatting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaTimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.timepackage.JavaTimeDemo" />
+    <configuration name="LogDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.logdemo.LogDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.timepackage.*" />
+          <option name="PATTERN" value="org.adv.logdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,25 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaTimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.timepackage.JavaTimeDemo" />
+    <configuration name="NumberFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.numberformatting.NumberFormatDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.timepackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadYamlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.yaml.ReadYamlDemo" />
-      <module name="advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.adv.yaml.*" />
+          <option name="PATTERN" value="org.adv.numberformatting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadYamlDemo" />
+        <item itemvalue="Application.LogDemo" />
+        <item itemvalue="Application.CalculateDailyProfit" />
+        <item itemvalue="Application.DecimalFormatiingDemo" />
+        <item itemvalue="Application.NumberFormatDemo" />
         <item itemvalue="Application.TestThings" />
-        <item itemvalue="Application.ImageMain" />
-        <item itemvalue="Application.FruitColorMain" />
-        <item itemvalue="Application.JavaTimeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +363,21 @@
       <workItem from="1723212660410" duration="222000" />
       <workItem from="1723233663998" duration="625000" />
       <workItem from="1724945425441" duration="44000" />
-      <workItem from="1725463091137" duration="542000" />
+      <workItem from="1725463091137" duration="1341000" />
+      <workItem from="1725557566321" duration="1772000" />
+      <workItem from="1725624938415" duration="2106000" />
+      <workItem from="1725908387726" duration="324000" />
+      <workItem from="1726083817842" duration="899000" />
+      <workItem from="1726143235939" duration="3000" />
+      <workItem from="1726686845955" duration="2164000" />
+      <workItem from="1726852847401" duration="1950000" />
+      <workItem from="1727198899219" duration="929000" />
+      <workItem from="1727276087792" duration="1560000" />
+      <workItem from="1727813989426" duration="1153000" />
+      <workItem from="1727871588865" duration="37000" />
+      <workItem from="1727884746267" duration="3221000" />
+      <workItem from="1727888148549" duration="2016000" />
+      <workItem from="1727962600240" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -422,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721998413774</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding yaml demo">
+      <option name="closed" value="true" />
+      <created>1725464376196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725464376196</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +457,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit on This project" />
     <MESSAGE value="Apachee poi demo for calling exel file" />
     <MESSAGE value="Apachee poi demo for creating exel file" />
@@ -447,7 +465,8 @@
     <MESSAGE value="Guava and String Escape added" />
     <MESSAGE value="ObjectMapper, Reflections, Collections, Facade added" />
     <MESSAGE value="Many code libraries are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Many code libraries are added." />
+    <MESSAGE value="Adding yaml demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding yaml demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,6 +510,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java</url>
           <line>154</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/logdemo/LogDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
