@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Adding yaml demo">
-      <change afterPath="$PROJECT_DIR$/AdvancedJavaLogs/application.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/allaboutcrypto/CalculateDailyProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/logdemo/LogDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/DecimalFormatiingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/NumberFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="adding log file and details">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/BaseQueryGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/IBaseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/ITableColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/QueryGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/UserColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/SynchronizedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,6 +80,7 @@
     &quot;Application.SerializableDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.StatisticsDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringEscapeUtilDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedListDemo.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TaxationMain.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TestThings.executor&quot;: &quot;Run&quot;,
     &quot;Application.UuidDemo.executor&quot;: &quot;Run&quot;,
@@ -105,6 +106,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vcs.patch.path&quot;: &quot;/Users/cezmi.aktepe/Downloads&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -116,7 +118,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LogDemo">
+  <component name="RunManager" selected="Application.SynchronizedListDemo">
     <configuration name="CalculateDailyProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.adv.allaboutcrypto.CalculateDailyProfit" />
       <module name="advanced" />
@@ -169,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.testthings.TestThings" />
+    <configuration name="SynchronizedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.synchronization.SynchronizedListDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.testthings.*" />
+          <option name="PATTERN" value="org.adv.synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedListDemo" />
         <item itemvalue="Application.LogDemo" />
         <item itemvalue="Application.CalculateDailyProfit" />
         <item itemvalue="Application.DecimalFormatiingDemo" />
         <item itemvalue="Application.NumberFormatDemo" />
-        <item itemvalue="Application.TestThings" />
       </list>
     </recent_temporary>
   </component>
@@ -378,6 +380,9 @@
       <workItem from="1727884746267" duration="3221000" />
       <workItem from="1727888148549" duration="2016000" />
       <workItem from="1727962600240" duration="227000" />
+      <workItem from="1728070941833" duration="2626000" />
+      <workItem from="1728140200564" duration="6694000" />
+      <workItem from="1728482511698" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -439,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725464376196</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding log file and details">
+      <option name="closed" value="true" />
+      <created>1728071204081</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728071204081</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +479,9 @@
     <MESSAGE value="ObjectMapper, Reflections, Collections, Facade added" />
     <MESSAGE value="Many code libraries are added." />
     <MESSAGE value="Adding yaml demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding yaml demo" />
+    <MESSAGE value="Some detail added" />
+    <MESSAGE value="adding log file and details" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding log file and details" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,6 +530,12 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/adv/logdemo/LogDemo.java</url>
           <line>10</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="threadName.equalsIgnoreCase(&quot;secondt&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/synchronization/ThreadDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
