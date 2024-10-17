@@ -16,7 +16,7 @@ public class UuidDemo {
         //Add context information
         ThreadContext.push("id", transactionId.toString());
 
-        LOG.warn("Info message Logged");
+        LOG.atWarn().log("Info message Logged {}", transactionId);
 
         ThreadContext.clearMap();
 
