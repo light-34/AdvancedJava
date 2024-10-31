@@ -14,7 +14,7 @@ import java.util.Base64;
 public class PictureEndocerDemo {
     private static final Logger LOG = LogManager.getLogger(PictureEndocerDemo.class);
     public static void main(String[] args) {
-        System.out.println("Encode File : \n" + encodePictureToString(new File("dragon.png")));
+        System.out.println("Encode File : \n" + encodePictureToString(new File("eye.png")));
         //String img = "";
         //decodePicture(encodePicture(new File("dragon.png")));
     }
