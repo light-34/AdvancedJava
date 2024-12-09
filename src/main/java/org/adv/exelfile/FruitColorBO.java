@@ -214,7 +214,8 @@ public class FruitColorBO {
             cell.setCellValue((Integer) data);
         } else if (data instanceof Double) {
             cell.setCellValue((Double) data);
-        } else if (data instanceof Boolean) {
+        }
+        else if (data instanceof Boolean) {
             cell.setCellValue((Boolean) data);
         } else {
             cell.setCellValue(data.toString());
