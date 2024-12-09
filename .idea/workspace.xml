@@ -4,15 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="adding log file and details">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/BaseQueryGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/IBaseQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/ITableColumns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/QueryGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/UserColumns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/SynchronizedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/ThreadDemo.java" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="pdf editor initial commit">
+      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gekko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_world.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_dragon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/net/NetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/nio/PosixFilePermisionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/os/OperatingSystemDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/ITextDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SamplePdfProcesses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SubHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/threads/ThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/utils/PathMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/vectorizedoperations/VectorizedOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/this.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/this1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedJavaLogs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJavaLogs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/nio/PathFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/nio/PathFileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PagesCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PagesCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfImagesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfImagesHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stream/StreamDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +49,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,12 +80,16 @@
     &quot;Application.BufferedMain.executor&quot;: &quot;Run&quot;,
     &quot;Application.CalculateDailyProfit.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CollectionsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CsvMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DateTimeDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.DecimalFormatiingDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DemoDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.EnumsDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.FacadeDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.FruitColorMain.executor&quot;: &quot;Run&quot;,
     &quot;Application.FunctionDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.GuavaCacheDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ITextDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.IfTryDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ImageMain.executor&quot;: &quot;Debug&quot;,
     &quot;Application.IntSummaryStatDemo.executor&quot;: &quot;Debug&quot;,
@@ -69,21 +98,30 @@
     &quot;Application.ListIteratorDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.LogDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.MatrixDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.NullableDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.NumberFormatDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ObjectMapperDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OperatingSystemDetail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathFileDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathMain.executor&quot;: &quot;Run&quot;,
     &quot;Application.PhoneNumberFormatter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PictureEndocerDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PosixFilePermisionsDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReadYamlDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReflectionDemo.executor&quot;: &quot;Debug&quot;,
     &quot;Application.ReflectionsSubClass.executor&quot;: &quot;Debug&quot;,
     &quot;Application.RunSpecialCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SamplePdfProcesses.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SerializableDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.StatisticsDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringEscapeUtilDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.SynchronizedListDemo.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TaxationMain.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TestThings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.UuidDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VectorizedOperations.executor&quot;: &quot;Run&quot;,
     &quot;Application.uuidDemo.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestIntSummaryStatistics.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestIntSummaryStatistics.testIntSummaryStatMin.executor&quot;: &quot;Run&quot;,
@@ -106,25 +144,30 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vcs.patch.path&quot;: &quot;/Users/cezmi.aktepe/Downloads&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.adv.pdfmaker" />
       <recent name="org.adv.greeting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedListDemo">
-    <configuration name="CalculateDailyProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.allaboutcrypto.CalculateDailyProfit" />
+  <component name="RunManager" selected="Application.UuidDemo">
+    <configuration name="CsvMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.csv.CsvMain" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.allaboutcrypto.*" />
+          <option name="PATTERN" value="org.adv.csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecimalFormatiingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.numberformatting.DecimalFormatiingDemo" />
+    <configuration name="NetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.net.NetDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.numberformatting.*" />
+          <option name="PATTERN" value="org.adv.net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.logdemo.LogDemo" />
+    <configuration name="OperatingSystemDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.os.OperatingSystemDetail" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.logdemo.*" />
+          <option name="PATTERN" value="org.adv.os.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.numberformatting.NumberFormatDemo" />
+    <configuration name="PosixFilePermisionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.nio.PosixFilePermisionsDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.numberformatting.*" />
+          <option name="PATTERN" value="org.adv.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.synchronization.SynchronizedListDemo" />
+    <configuration name="UuidDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.UUID.UuidDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.synchronization.*" />
+          <option name="PATTERN" value="org.adv.UUID.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SynchronizedListDemo" />
-        <item itemvalue="Application.LogDemo" />
-        <item itemvalue="Application.CalculateDailyProfit" />
-        <item itemvalue="Application.DecimalFormatiingDemo" />
-        <item itemvalue="Application.NumberFormatDemo" />
+        <item itemvalue="Application.UuidDemo" />
+        <item itemvalue="Application.CsvMain" />
+        <item itemvalue="Application.PosixFilePermisionsDemo" />
+        <item itemvalue="Application.OperatingSystemDetail" />
+        <item itemvalue="Application.NetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +425,27 @@
       <workItem from="1727962600240" duration="227000" />
       <workItem from="1728070941833" duration="2626000" />
       <workItem from="1728140200564" duration="6694000" />
-      <workItem from="1728482511698" duration="2248000" />
+      <workItem from="1728482511698" duration="2888000" />
+      <workItem from="1729180105623" duration="7050000" />
+      <workItem from="1729253471851" duration="1696000" />
+      <workItem from="1730314928753" duration="3381000" />
+      <workItem from="1730377333813" duration="2708000" />
+      <workItem from="1730738588304" duration="11855000" />
+      <workItem from="1730812202292" duration="686000" />
+      <workItem from="1730925461595" duration="1528000" />
+      <workItem from="1730984958284" duration="576000" />
+      <workItem from="1731009526570" duration="1023000" />
+      <workItem from="1731099930009" duration="102000" />
+      <workItem from="1731428196780" duration="1521000" />
+      <workItem from="1731429980074" duration="435000" />
+      <workItem from="1731438891871" duration="3541000" />
+      <workItem from="1731704057254" duration="591000" />
+      <workItem from="1731782492893" duration="2388000" />
+      <workItem from="1732134737133" duration="2326000" />
+      <workItem from="1732895116267" duration="4942000" />
+      <workItem from="1733332566174" duration="2316000" />
+      <workItem from="1733421581652" duration="8974000" />
+      <workItem from="1733491801795" duration="7456000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -452,7 +515,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728071204081</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="heredity added">
+      <option name="closed" value="true" />
+      <created>1728485399242</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728485399242</updated>
+    </task>
+    <task id="LOCAL-00011" summary="picture encoder/decoder implemented.">
+      <option name="closed" value="true" />
+      <created>1729184040037</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729184040037</updated>
+    </task>
+    <task id="LOCAL-00012" summary="pdf editor initial commit">
+      <option name="closed" value="true" />
+      <created>1730380113355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730380113355</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +568,10 @@
     <MESSAGE value="Adding yaml demo" />
     <MESSAGE value="Some detail added" />
     <MESSAGE value="adding log file and details" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding log file and details" />
+    <MESSAGE value="heredity added" />
+    <MESSAGE value="picture encoder/decoder implemented." />
+    <MESSAGE value="pdf editor initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdf editor initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -536,6 +626,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/adv/synchronization/ThreadDemo.java</url>
           <line>15</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SamplePdfProcesses.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/nio/PathFileDemo.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/csv/CsvBO.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
