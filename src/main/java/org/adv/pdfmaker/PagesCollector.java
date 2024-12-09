@@ -22,7 +22,7 @@ public class PagesCollector implements Collector<PDPage, PDDocument, PDDocument>
 
     @Override
     public BiConsumer<PDDocument, PDPage> accumulator() {
-        return (doc, page) -> doc.addPage(page);
+        return PDDocument::addPage;
     }
 
     @Override

@@ -15,26 +15,12 @@ public class DateTimeDemoNew {
     public static final String DB2_DATETIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
     public static final ZoneId ET_ZONE = ZoneId.of("America/New_York");
 
-    public static String convertKarmaTimestamp(String vipTimestamp) {
-        String convertedTimestamp = "";
-
-        if (StringUtils.isNotBlank(vipTimestamp)) {
-            String[] timestampParts = StringUtils.split(vipTimestamp, ".");
-            Date date = new Date(Long.parseLong(timestampParts[0]) * 1000);
-            String microSeconds = (timestampParts.length > 1) ? timestampParts[1] : "000000";
-            SimpleDateFormat sdf = new SimpleDateFormat(DB2_DATETIME_FORMAT);
-            convertedTimestamp = sdf.format(date) + "." + microSeconds;
-        }
-
-        return convertedTimestamp;
-    }
-
     /**
      * convert UTC datetime to db2 datetime
      * @param utcTimestamp UTC unix timestamp in seconds i.e. 1433346982.120011
      * @return string format of eastern Timestamp of db2 datetime
      */
-    public static String unixTimestampToDb2(String utcTimestamp) { //convertKarmaTimestamp
+    public static String millisecondsToFormattedDateTime(String utcTimestamp) {
         String db2Time = "";
 
         if (StringUtils.isBlank(utcTimestamp)) {
@@ -55,20 +41,20 @@ public class DateTimeDemoNew {
         return db2Time;
     }
 
-    public static String unixTimestampToDb2Old(String vipTimestamp) {
+    public static String unixTimestampToDb2Old(String timestamp) {
         String convertedTimestamp = "";
 
-        if (StringUtils.isBlank(vipTimestamp)) {
+        if (StringUtils.isBlank(timestamp)) {
             return convertedTimestamp;
         }
 
         try {
-            String[] timestampParts = StringUtils.split(vipTimestamp, ".");
+            String[] timestampParts = StringUtils.split(timestamp, ".");
             Instant instant = Instant.ofEpochSecond(Long.parseLong(timestampParts[0]));
             String microSeconds = (timestampParts.length > 1) ? timestampParts[1] : "000000";
             convertedTimestamp = DateTimeFormatter.ofPattern(DB2_DATETIME_FORMAT).withZone(ZoneId.systemDefault()).format(instant) + "." + microSeconds;
         } catch (Exception e) {
-            LOG.warn("Failed to convert timestamp. {} ", vipTimestamp);
+            LOG.warn("Failed to convert timestamp. {} ", timestamp);
         }
 
         return convertedTimestamp;

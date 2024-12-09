@@ -33,6 +33,10 @@ public class DateTimeDemo {
         System.out.println("Converted Instant : " + instant.toDateTime());
 
 
+        System.out.println(DateTimeDemoNew.millisecondsToFormattedDateTime("1731429929"));
+        System.out.println(DateTimeDemoNew.millisecondsToFormattedDateTime("1731433529"));
+
+
 
 
     }
