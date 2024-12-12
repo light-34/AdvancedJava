@@ -43,11 +43,34 @@ public class JavaTimeDemo {
 
         List<String> values = List.of("Ali", "John");
 
-        System.out.println(values.contains("Ali") ? "Yes" : "No");
+        //System.out.println(values.contains("Ali") ? "Yes" : "No");
 
         //System.out.println(convertTimestampToSpecificPattern("20240305", SIMPLE_FORMAT, DISPLAY_FORMAT));
 
+        System.out.println(isDateFormatValid(SIMPLE_FORMAT, "20231306"));
 
+        String val = "A";
+
+        if (StringUtils.equalsAny(val, "A", "B", "C", "D")) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+
+        String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
+        System.out.println(methodName);
+
+
+    }
+
+    public static boolean isDateFormatValid(String dateFormat, String date) {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(dateFormat);
+        try {
+            LocalDate.parse(date, dateTimeFormatter);
+            return true;
+        } catch (DateTimeParseException e) {
+            return false;
+        }
     }
 
     public static String db2ToUnixTimestamp(String datetime) { //convertDb2DateToTimestamp() db2ToTimestamp()
