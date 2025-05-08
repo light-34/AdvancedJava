@@ -5,7 +5,7 @@ import java.io.*;
 public class SerialiazibleUtil {
     public void serializeObject (Person object, File file) {
         try (
-                FileOutputStream fout = new FileOutputStream(file, true);
+                FileOutputStream fout = new FileOutputStream(file);
                 ObjectOutputStream outStream = new ObjectOutputStream(fout)
         ){
             outStream.writeObject(object);

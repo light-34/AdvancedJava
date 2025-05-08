@@ -5,11 +5,15 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FunctionDemo {
+    public record Person(String name, int age) {
+    }
+
     public static void main(String[] args) {
         //Function<T, R> T -> type of input R -> type of return value
 //        Function<Integer, Double> intToDouble = num -> num * 2.0;
@@ -45,6 +49,13 @@ public class FunctionDemo {
         String[] arr = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
         List<String> strings = StreamDemo.convertArrayToList(arr);
         strings.forEach(System.out::println);
+
+        StreamDemo.functionIdentityExample(strings)
+                .forEach((key, value) -> System.out.println(key + " : " + value));
+
+        List<Person> persons = List.of(new Person("Muhsin", 23), new Person("Cezmi", 24), new Person("Ali", 25));
+        Map<Integer, Person> personMap = persons.stream().collect(Collectors.toMap(Person::age, Function.identity()));
+        personMap.forEach((key, value) -> System.out.println(key + " : " + value.name + " : " + value.age));
 
     }
 }

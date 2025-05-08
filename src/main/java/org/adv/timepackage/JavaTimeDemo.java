@@ -47,18 +47,22 @@ public class JavaTimeDemo {
 
         //System.out.println(convertTimestampToSpecificPattern("20240305", SIMPLE_FORMAT, DISPLAY_FORMAT));
 
-        System.out.println(isDateFormatValid(SIMPLE_FORMAT, "20231306"));
+        //System.out.println(isDateFormatValid(SIMPLE_FORMAT, "20231306"));
 
         String val = "A";
 
-        if (StringUtils.equalsAny(val, "A", "B", "C", "D")) {
-            System.out.println("True");
-        } else {
-            System.out.println("False");
-        }
+//        if (StringUtils.equalsAny(val, "A", "B", "C", "D")) {
+//            System.out.println("True");
+//        } else {
+//            System.out.println("False");
+//        }
+//
+//        String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
+//        System.out.println(methodName);
+        String fileApiName = "DRIVE";
 
-        String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
-        System.out.println(methodName);
+        boolean fileApi = (!StringUtils.equalsIgnoreCase(fileApiName, "FILE") && !StringUtils.equalsIgnoreCase(fileApiName, "DRIVE"));
+        System.out.println(fileApi);
 
 
     }

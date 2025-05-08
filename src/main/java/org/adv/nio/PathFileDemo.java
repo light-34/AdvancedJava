@@ -10,6 +10,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class PathFileDemo {
     public static void main(String[] args) {
@@ -199,12 +200,22 @@ public class PathFileDemo {
         } else {
             System.out.println("File is already exist");
         }
-
     }
 
     public static void createADirectory(Path path) throws IOException{
         if (Files.notExists(path)) {
             Files.createDirectory(path);
+        }
+    }
+
+    private static Set<String> generateFileList(Path phsicalPath, String extension) {
+        try (Stream<Path> walk = Files.walk(phsicalPath, 1)) {
+            return walk.filter(Files::isRegularFile)
+                    .map(filePath -> filePath.getFileName().toString())
+                    .filter(fileName -> fileName.toLowerCase().endsWith(extension))
+                    .collect(Collectors.toSet());
+        } catch (IOException e) {
+            return new HashSet<>();
         }
     }
 }
