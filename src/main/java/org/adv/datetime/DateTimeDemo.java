@@ -4,7 +4,10 @@ import org.joda.time.*;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
+import java.time.LocalDateTime;
 import java.util.List;
+
+import static org.adv.datetime.DateTimeDemoNew.*;
 
 public class DateTimeDemo {
 
@@ -41,8 +44,20 @@ public class DateTimeDemo {
 //        System.out.println("First : " + DateTimeDemoNew.convertFormattedDateTimeToUnix("2024/11/15 00:00:22", "yyyy/MM/dd HH:mm:ss"));
 //        System.out.println("Second : " + DateTimeDemoNew.convertFormattedDateTimeToUnix("2024-11-15", "yyyy-MM-dd"));
         //System.out.println("Third : " + DateTimeDemoNew.convertFormattedDateTimeToUnix("2024-11-15 00:01", "yyyy-MM-dd HH:mm"));
-        List<String> dateRange = DateTimeDemoNew.generateDateRange("20240101", "20250613", 15);
-        dateRange.forEach(System.out::println);
+//        List<String> dateRange = DateTimeDemoNew.generateDateRange("20240101", "20250613", 15);
+//        dateRange.forEach(System.out::println);
+//
+//        DateTimeDemoNew.buildDuration();
+        System.out.println(getCurrentDateTime());
+
+        LocalDateTime now = LocalDateTime.now().minusDays(30);
+
+        System.out.println(getEpochSeconds(now));
+
+        System.out.println(convertUnixTimestampToFormattedDateTime("1747056129"));
+
+
+
 
     }
 }

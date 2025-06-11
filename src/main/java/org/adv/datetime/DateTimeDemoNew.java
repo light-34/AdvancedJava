@@ -4,10 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
@@ -48,6 +45,29 @@ public class DateTimeDemoNew {
         return db2Time;
     }
 
+    public static LocalDateTime getCurrentDateTime() {
+
+        ZonedDateTime zonedDateTime = ZonedDateTime.now(ZONE);
+
+        return zonedDateTime.toLocalDateTime();
+    }
+
+    /**
+     * It returns a string of epoch seconds
+     * @param localDateTime - local date time input
+     * @return - a string of epoch seconds
+     */
+    public static String getEpochSeconds(LocalDateTime localDateTime) {
+
+        return String.valueOf(localDateTime.atZone(ZONE).toEpochSecond());
+    }
+
+    public static String calculateDurationBetweenTwoLDT(LocalDateTime localDateTime) {
+        LocalDateTime current = getCurrentDateTime();
+
+        return String.valueOf(Math.abs(current.until(localDateTime, ChronoUnit.SECONDS)));
+    }
+
     public static String unixToDatabase(String timestamp) {
         String convertedTimestamp = "";
 
@@ -65,6 +85,12 @@ public class DateTimeDemoNew {
         }
 
         return convertedTimestamp;
+    }
+
+    public static String convertUnixTimestampToFormattedDateTime(String timestamp) {
+        Instant instant = Instant.ofEpochSecond(Long.parseLong(timestamp));
+
+        return DateTimeFormatter.ofPattern(DATETIME_FORMAT).withZone(ZONE).format(instant);
     }
 
     public static String convertFormattedDateTimeToUnix(String datetime, String pattern) {
@@ -117,5 +143,20 @@ public class DateTimeDemoNew {
         }
 
         return dateRanges;
+    }
+
+    public static String buildDuration() {
+        LocalDateTime now = LocalDateTime.now();
+        long nowSeconds = now.atZone(ZoneOffset.UTC).toEpochSecond();
+        Duration duration = Duration.ofSeconds(nowSeconds);
+
+        long durationSeconds = duration.toSecondsPart();
+        long durationMinutes = duration.toMinutesPart();
+        long durationHours = duration.toHoursPart();
+
+        System.out.printf("Duration: %02d seconds, %02d minutes, %02d hours%n", durationSeconds, durationMinutes, durationHours);
+
+
+        return String.valueOf(duration);
     }
 }
