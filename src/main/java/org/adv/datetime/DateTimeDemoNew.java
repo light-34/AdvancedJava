@@ -9,6 +9,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class DateTimeDemoNew {
@@ -158,5 +159,32 @@ public class DateTimeDemoNew {
 
 
         return String.valueOf(duration);
+    }
+
+    public static List<LocalDate> generateDateInterval(int days, String process) {
+
+        if (StringUtils.isBlank(process)) {
+            LOG.atWarn().log("Process cant be blank");
+            return null;
+        } else if (days == 0 || days < 0) {
+            LOG.atWarn().log("Days cant be zero or negative number. Days = {}", days);
+            return null;
+        }
+
+        try {
+            LocalDate today =LocalDate.now();
+            LocalDate processDate;
+            if (process.equalsIgnoreCase("plus")) {
+                processDate = today.plusDays(days);
+                return List.of(today, processDate);
+            } else {
+                processDate = today.minusDays(days);
+                return List.of(processDate, today);
+            }
+
+        } catch (Exception e) {
+            LOG.atError().log("Failed to generate date interval: days={}, process={}, message={}", days, process, e.getMessage());
+            return null;
+        }
     }
 }

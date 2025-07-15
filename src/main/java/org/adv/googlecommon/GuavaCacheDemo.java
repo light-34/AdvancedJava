@@ -1,4 +1,4 @@
-package org.adv.guavacache;
+package org.adv.googlecommon;
 
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
