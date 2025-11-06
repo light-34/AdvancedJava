@@ -4,25 +4,209 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="First Commit on This project">
-      <change afterPath="$PROJECT_DIR$/FruitsColors.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/createworkbook.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/maps/TreeMapDemo.java" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="google lists added.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/CompanyDataFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/sanitazing/CommonSanitazing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedJavaLogs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJavaLogs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreshFruit.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/FreshFruit.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FruitColors.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/FruitColors.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createworkbook.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/createworkbook.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoded_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/decoded_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sRGB_v4_ICC_preference.icc" beforeDir="false" afterPath="$PROJECT_DIR$/sRGB_v4_ICC_preference.icc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/BO/AbstractAdvancedBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/BO/AbstractAdvancedBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/BO/AdvancedBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/BO/AdvancedBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/DAO/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/DAO/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/DAO/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/DAO/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/StrBuffer/StringBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/StrBuffer/StringBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/UUID/UuidDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/UUID/UuidDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/BinarySearchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/BinarySearchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/GcdFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/GcdFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/HashTableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/HashTableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/MergeSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/MergeSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/QuickSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/QuickSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/SearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/SearchMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/UnorderedSearchAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/algorithms/UnorderedSearchAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/allaboutcrypto/CalculateDailyProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/allaboutcrypto/CalculateDailyProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/apacheePOI/ApacheePOIDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/apacheePOI/ApacheePOIDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/bigdecimal/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/bigdecimal/BigDecimalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/bufferedreader/BufferedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/bufferedreader/BufferedMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/bufferedreader/BufferedReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/bufferedreader/BufferedReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/collections/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/collections/ListIteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/collections/ListIteratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/coloredtext/ColorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/coloredtext/ColorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/coloredtext/ColoredText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/coloredtext/ColoredText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/Atm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/ExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/ExecutorServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/RunnableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/RunnableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/ThreadSleepDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/ThreadSleepDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/executorpool/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/executorpool/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/executorpool/TaskMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/executorpool/TaskMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/semaphore/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/semaphore/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/semaphore/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/semaphore/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/semaphore/Shared.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/concurrency/semaphore/Shared.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/cryptography/AESEncryptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/cryptography/AESEncryptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/cryptography/CaesarCipherCrytpo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/cryptography/CaesarCipherCrytpo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/csv/CsvMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/dto/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/dto/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/dto/EmployeePrivate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/dto/EmployeePrivate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/enums/EnumsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/enums/EnumsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/enums/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/enums/Plants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/ExcelRowModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/ExcelRowModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/ExcelSheetModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/ExcelSheetModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/facade/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/AudioPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/facade/FacadeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/FacadeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/facade/MultimediaFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/MultimediaFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/facade/Projector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/Projector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/facade/VideoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/facade/VideoPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/factory/AutomobileFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/AutomobileFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/factory/Automobiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/Automobiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/factory/AutomobilesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/AutomobilesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/factory/Sedan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/Sedan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/factory/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/factory/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/fasterxml/ObjectMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/fasterxml/ObjectMapperDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/fasterxml/ObjectMapperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/fasterxml/ObjectMapperMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/formatter/CountryPhoneNumberCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/formatter/CountryPhoneNumberCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/formatter/PhoneNumberFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/formatter/PhoneNumberFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/formatter/ipsum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/formatter/ipsum.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/googlecommon/GoogleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/googlecommon/GoogleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/googlecommon/GuavaCacheDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/googlecommon/GuavaCacheDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/googlecommon/GuavaMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/googlecommon/GuavaMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/greeting/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/greeting/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/greeting/GreetingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/greeting/GreetingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/heredity/BaseQueryGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/BaseQueryGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/heredity/IBaseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/IBaseQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/heredity/ITableColumns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/ITableColumns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/heredity/Joins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/Joins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/heredity/QueryGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/QueryGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/heredity/SqlClauses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/SqlClauses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/heredity/UserColumns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/heredity/UserColumns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/imageprocess/ImageMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/imageprocess/ImageMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/imageprocess/ImageProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/imageprocess/ImageProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/labels/LabelsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/labels/LabelsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/linkedlist/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/linkedlist/LinkedListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/linkedlist/LinkedListStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/linkedlist/LinkedListStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/linkedlist/NodeStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/linkedlist/NodeStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/LinkedListTwoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/LinkedListTwoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/PersonLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/PersonLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/PersonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/linkedlisttwo/PersonNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/lists/ErrorCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/lists/ErrorCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/lists/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/lists/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/logdemo/LogDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/logdemo/LogDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/maps/MapsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/maps/MapsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/maps/MapsRemoveIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/maps/MapsRemoveIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/maps/TreeMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/maps/TreeMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/matrix/MatrixDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/matrix/MatrixDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/matrix/MatrixMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/matrix/MatrixMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/net/NetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/net/NetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/nio/PathFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/nio/PathFileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/nio/PosixFilePermisionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/nio/PosixFilePermisionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/nullable/NullableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/nullable/NullableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/DecimalFormatiingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/DecimalFormatiingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/NumberFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/numberformatting/NumberFormatDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/optionals/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/optionals/OptionalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/optionals/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/optionals/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/os/OperatingSystemDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/os/OperatingSystemDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/ITextDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/ITextDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/ImageExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/ImageExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PagesCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PagesCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfImagesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfImagesHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfPageSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfPageSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfProcessingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/PdfProcessingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/SelectorOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/SelectorOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SamplePdfProcesses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SamplePdfProcesses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SubHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SubHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pictureprocess/PictureEndocerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pictureprocess/PictureEndocerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/queues/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/queues/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/recursion/CountDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/recursion/CountDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsDataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsSubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsSubClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/SealedClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/SealedClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/sealedclasses/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/serializable/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/serializable/SerialiazibleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/SerialiazibleUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/serializable/SerializableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/SerializableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/serializable/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/serializable/Workers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/serializable/Workers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/specialcharactersql/RunSpecialCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/specialcharactersql/RunSpecialCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/srs_test/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/srs_test/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stacks/StacksDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stacks/StacksDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/statistics/StatisticsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/statistics/StatisticsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/statistics/StatisticsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/statistics/StatisticsMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stream/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stringescapeutil/StringEscapeUtilDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stringescapeutil/StringEscapeUtilDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/summarystatistics/IntSummaryStatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/summarystatistics/IntSummaryStatDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/SynchronizedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/SynchronizedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/synchronization/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/testthings/TestThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/threads/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/threads/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/ticket/AdultTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/ticket/AdultTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/ticket/ChildTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/ticket/ChildTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/ticket/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/ticket/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/ticket/TicketMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/ticket/TicketMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/timepackage/JavaTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/timepackage/JavaTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/tryPackage/IfTryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/tryPackage/IfTryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/unittestdemo/UnitTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/unittestdemo/UnitTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/utils/PathMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/utils/PathMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/utils/PathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/utils/PathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/vectorizedoperations/VectorizedOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/vectorizedoperations/VectorizedOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/DataOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/DataOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/WorkProjCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/WorkProjCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/workprojects/test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/yaml/ReadYamlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/yaml/ReadYamlDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdvancedBOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdvancedBOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApacheePOIDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApacheePOIDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuffReaderDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuffReaderDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestIntSummaryStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIntSummaryStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_yaml.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test_yaml.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -33,15 +217,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2QcCipU9p2Nyacia9NIjnis6xlU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -50,33 +230,106 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AutomobilesMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BufferedMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculateDailyProfit.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CollectionsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonSanitazing.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CsvMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DateTimeDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecimalFormatiingDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DemoDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FacadeDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FruitColorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoogleList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuavaCacheDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuavaMath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ITextDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfTryDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImageMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IntSummaryStatDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JavaTimeDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LabelsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIteratorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NullableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberFormatDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectMapperDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OperatingSystemDetail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathFileDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhoneNumberFormatter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PictureEndocerDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PosixFilePermisionsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadYamlDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReflectionDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReflectionsSubClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RunSpecialCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SamplePdfProcesses.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SerializableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StatisticsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEscapeUtilDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedListDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TaxationMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestThings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UuidDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.VectorizedOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.uuidDemo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestIntSummaryStatistics.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestIntSummaryStatistics.testIntSummaryStatMin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestIntSummaryStatistics.testIntSummaryStatSum.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testDivide.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testFormatDateTime.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testIsEqual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testIsEqualFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnitTestTest.testThrowable.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cezmi.aktepe/Desktop/REPOS/MY_PROJECTS/JAVA/AdvancedJava&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vcs.patch.path&quot;: &quot;/Users/cezmi.aktepe/Downloads&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.adv.pdfmaker" />
       <recent name="org.adv.greeting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FruitColorMain">
-    <configuration name="FruitColorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.exelfile.FruitColorMain" />
+  <component name="RunManager" selected="Application.DateTimeDemo">
+    <configuration name="CommonSanitazing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.sanitazing.CommonSanitazing" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.exelfile.*" />
+          <option name="PATTERN" value="org.adv.sanitazing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.stream.FunctionDemo" />
+    <configuration name="DateTimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.datetime.DateTimeDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.stream.*" />
+          <option name="PATTERN" value="org.adv.datetime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.maps.MapsDemo" />
+    <configuration name="GoogleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.googlecommon.GoogleList" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.maps.*" />
+          <option name="PATTERN" value="org.adv.googlecommon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.concurrency.executorpool.TaskMain" />
+    <configuration name="GuavaMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.googlecommon.GuavaMath" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.concurrency.executorpool.*" />
+          <option name="PATTERN" value="org.adv.googlecommon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.maps.TreeMapDemo" />
+    <configuration name="UuidDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.UUID.UuidDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.maps.*" />
+          <option name="PATTERN" value="org.adv.UUID.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,15 +391,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FruitColorMain" />
-        <item itemvalue="Application.TreeMapDemo" />
-        <item itemvalue="Application.FunctionDemo" />
-        <item itemvalue="Application.MapsDemo" />
-        <item itemvalue="Application.TaskMain" />
+        <item itemvalue="Application.DateTimeDemo" />
+        <item itemvalue="Application.CommonSanitazing" />
+        <item itemvalue="Application.GoogleList" />
+        <item itemvalue="Application.GuavaMath" />
+        <item itemvalue="Application.UuidDemo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.28774.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.28774.11" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Physical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="" />
@@ -219,7 +483,151 @@
       <workItem from="1698069109167" duration="3121000" />
       <workItem from="1698081621529" duration="362000" />
       <workItem from="1698090738401" duration="3082000" />
-      <workItem from="1698149591085" duration="6211000" />
+      <workItem from="1698149591085" duration="9751000" />
+      <workItem from="1698177830032" duration="3394000" />
+      <workItem from="1698266889820" duration="1953000" />
+      <workItem from="1698414866886" duration="4317000" />
+      <workItem from="1698849595300" duration="165000" />
+      <workItem from="1699631836179" duration="1185000" />
+      <workItem from="1699633133058" duration="268000" />
+      <workItem from="1699633471629" duration="1109000" />
+      <workItem from="1699976541151" duration="950000" />
+      <workItem from="1700053067551" duration="15000" />
+      <workItem from="1700054734188" duration="3815000" />
+      <workItem from="1700079563267" duration="134000" />
+      <workItem from="1700145221881" duration="487000" />
+      <workItem from="1700152525827" duration="635000" />
+      <workItem from="1700223106297" duration="1786000" />
+      <workItem from="1700578067311" duration="2322000" />
+      <workItem from="1700658166055" duration="1201000" />
+      <workItem from="1700744995719" duration="279000" />
+      <workItem from="1700754042986" duration="2440000" />
+      <workItem from="1700847964214" duration="564000" />
+      <workItem from="1701194222568" duration="1433000" />
+      <workItem from="1701355242486" duration="720000" />
+      <workItem from="1704920926929" duration="1341000" />
+      <workItem from="1707332118070" duration="2147000" />
+      <workItem from="1708445066952" duration="1554000" />
+      <workItem from="1708618606175" duration="11386000" />
+      <workItem from="1708968034487" duration="894000" />
+      <workItem from="1709039066770" duration="6299000" />
+      <workItem from="1709135094180" duration="1644000" />
+      <workItem from="1709232421084" duration="8804000" />
+      <workItem from="1709327631411" duration="731000" />
+      <workItem from="1709557731554" duration="32000" />
+      <workItem from="1709671778370" duration="1232000" />
+      <workItem from="1709731079393" duration="4000" />
+      <workItem from="1709830505701" duration="2168000" />
+      <workItem from="1709904283062" duration="1515000" />
+      <workItem from="1710246402890" duration="1216000" />
+      <workItem from="1710335140205" duration="1743000" />
+      <workItem from="1710953133837" duration="2574000" />
+      <workItem from="1711024455483" duration="11720000" />
+      <workItem from="1713367497174" duration="902000" />
+      <workItem from="1713878091787" duration="167000" />
+      <workItem from="1713878951210" duration="13571000" />
+      <workItem from="1713962182135" duration="6025000" />
+      <workItem from="1714053604032" duration="2599000" />
+      <workItem from="1714139666695" duration="1994000" />
+      <workItem from="1714411233284" duration="3687000" />
+      <workItem from="1714486580462" duration="4669000" />
+      <workItem from="1714565928863" duration="8681000" />
+      <workItem from="1714652638527" duration="5782000" />
+      <workItem from="1714739220578" duration="1851000" />
+      <workItem from="1715107424655" duration="2141000" />
+      <workItem from="1715111190509" duration="341000" />
+      <workItem from="1715173422656" duration="1493000" />
+      <workItem from="1715186840338" duration="1461000" />
+      <workItem from="1715257481648" duration="1794000" />
+      <workItem from="1715268313946" duration="2987000" />
+      <workItem from="1715343414720" duration="3526000" />
+      <workItem from="1715370566326" duration="650000" />
+      <workItem from="1715604403018" duration="601000" />
+      <workItem from="1715876355824" duration="2188000" />
+      <workItem from="1715952322892" duration="7038000" />
+      <workItem from="1716152176382" duration="9000" />
+      <workItem from="1716298531269" duration="700000" />
+      <workItem from="1716913460027" duration="718000" />
+      <workItem from="1718117238481" duration="2769000" />
+      <workItem from="1718120230227" duration="2821000" />
+      <workItem from="1718132283245" duration="1024000" />
+      <workItem from="1718193883638" duration="6903000" />
+      <workItem from="1718206030308" duration="1660000" />
+      <workItem from="1718282316398" duration="12000" />
+      <workItem from="1718375640233" duration="1668000" />
+      <workItem from="1718386096007" duration="1281000" />
+      <workItem from="1719338191957" duration="4894000" />
+      <workItem from="1720788734674" duration="8949000" />
+      <workItem from="1720806438713" duration="1603000" />
+      <workItem from="1721045270109" duration="598000" />
+      <workItem from="1721131420058" duration="606000" />
+      <workItem from="1721218560313" duration="1463000" />
+      <workItem from="1721823180506" duration="1147000" />
+      <workItem from="1721909907083" duration="17166000" />
+      <workItem from="1721996917647" duration="1534000" />
+      <workItem from="1722264040681" duration="645000" />
+      <workItem from="1722358952946" duration="41000" />
+      <workItem from="1722361423755" duration="1499000" />
+      <workItem from="1723206541851" duration="639000" />
+      <workItem from="1723207981976" duration="188000" />
+      <workItem from="1723212660410" duration="222000" />
+      <workItem from="1723233663998" duration="625000" />
+      <workItem from="1724945425441" duration="44000" />
+      <workItem from="1725463091137" duration="1341000" />
+      <workItem from="1725557566321" duration="1772000" />
+      <workItem from="1725624938415" duration="2106000" />
+      <workItem from="1725908387726" duration="324000" />
+      <workItem from="1726083817842" duration="899000" />
+      <workItem from="1726143235939" duration="3000" />
+      <workItem from="1726686845955" duration="2164000" />
+      <workItem from="1726852847401" duration="1950000" />
+      <workItem from="1727198899219" duration="929000" />
+      <workItem from="1727276087792" duration="1560000" />
+      <workItem from="1727813989426" duration="1153000" />
+      <workItem from="1727871588865" duration="37000" />
+      <workItem from="1727884746267" duration="3221000" />
+      <workItem from="1727888148549" duration="2016000" />
+      <workItem from="1727962600240" duration="227000" />
+      <workItem from="1728070941833" duration="2626000" />
+      <workItem from="1728140200564" duration="6694000" />
+      <workItem from="1728482511698" duration="2888000" />
+      <workItem from="1729180105623" duration="7050000" />
+      <workItem from="1729253471851" duration="1696000" />
+      <workItem from="1730314928753" duration="3381000" />
+      <workItem from="1730377333813" duration="2708000" />
+      <workItem from="1730738588304" duration="11855000" />
+      <workItem from="1730812202292" duration="686000" />
+      <workItem from="1730925461595" duration="1528000" />
+      <workItem from="1730984958284" duration="576000" />
+      <workItem from="1731009526570" duration="1023000" />
+      <workItem from="1731099930009" duration="102000" />
+      <workItem from="1731428196780" duration="1521000" />
+      <workItem from="1731429980074" duration="435000" />
+      <workItem from="1731438891871" duration="3541000" />
+      <workItem from="1731704057254" duration="591000" />
+      <workItem from="1731782492893" duration="2388000" />
+      <workItem from="1732134737133" duration="2326000" />
+      <workItem from="1732895116267" duration="4942000" />
+      <workItem from="1733332566174" duration="2316000" />
+      <workItem from="1733421581652" duration="8974000" />
+      <workItem from="1733491801795" duration="7456000" />
+      <workItem from="1747240596963" duration="1871000" />
+      <workItem from="1747863486009" duration="345000" />
+      <workItem from="1747915072712" duration="744000" />
+      <workItem from="1749480984440" duration="1008000" />
+      <workItem from="1749647504635" duration="3391000" />
+      <workItem from="1749757241603" duration="2776000" />
+      <workItem from="1749817048214" duration="5329000" />
+      <workItem from="1750084891946" duration="64000" />
+      <workItem from="1750108726791" duration="176000" />
+      <workItem from="1750109184652" duration="1174000" />
+      <workItem from="1750249238968" duration="1889000" />
+      <workItem from="1752598511968" duration="906000" />
+      <workItem from="1752600834025" duration="53000" />
+      <workItem from="1755001237528" duration="1216000" />
+      <workItem from="1755692258586" duration="1185000" />
+      <workItem from="1757507556716" duration="1316000" />
+      <workItem from="1761838014368" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -228,14 +636,223 @@
       <option name="project" value="LOCAL" />
       <updated>1698071188961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Apachee poi demo for calling exel file">
+      <created>1698167945407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698167945407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Apachee poi demo for creating exel file">
+      <created>1698171251203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698171251203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="StringEscapeUtil in Apache text implemented">
+      <created>1698430379716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698430379716</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Guava and String Escape added">
+      <option name="closed" value="true" />
+      <created>1707334250803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707334250803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ObjectMapper, Reflections, Collections, Facade added">
+      <option name="closed" value="true" />
+      <created>1709239985953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709239985953</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Many code libraries are added.">
+      <option name="closed" value="true" />
+      <created>1721998413774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721998413774</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding yaml demo">
+      <option name="closed" value="true" />
+      <created>1725464376196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725464376196</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding log file and details">
+      <option name="closed" value="true" />
+      <created>1728071204081</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728071204081</updated>
+    </task>
+    <task id="LOCAL-00010" summary="heredity added">
+      <option name="closed" value="true" />
+      <created>1728485399242</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728485399242</updated>
+    </task>
+    <task id="LOCAL-00011" summary="picture encoder/decoder implemented.">
+      <option name="closed" value="true" />
+      <created>1729184040037</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729184040037</updated>
+    </task>
+    <task id="LOCAL-00012" summary="pdf editor initial commit">
+      <option name="closed" value="true" />
+      <created>1730380113355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730380113355</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Date functions added">
+      <option name="closed" value="true" />
+      <created>1749651899538</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749651899538</updated>
+    </task>
+    <task id="LOCAL-00014" summary="google lists added.">
+      <option name="closed" value="true" />
+      <created>1752600881121</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752600881121</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit on This project" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit on This project" />
+    <MESSAGE value="Apachee poi demo for calling exel file" />
+    <MESSAGE value="Apachee poi demo for creating exel file" />
+    <MESSAGE value="StringEscapeUtil in Apache text implemented" />
+    <MESSAGE value="Guava and String Escape added" />
+    <MESSAGE value="ObjectMapper, Reflections, Collections, Facade added" />
+    <MESSAGE value="Many code libraries are added." />
+    <MESSAGE value="Adding yaml demo" />
+    <MESSAGE value="Some detail added" />
+    <MESSAGE value="adding log file and details" />
+    <MESSAGE value="heredity added" />
+    <MESSAGE value="picture encoder/decoder implemented." />
+    <MESSAGE value="pdf editor initial commit" />
+    <MESSAGE value="Date functions added" />
+    <MESSAGE value="google lists added." />
+    <option name="LAST_COMMIT_MESSAGE" value="google lists added." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsDataUtil.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsSubClass.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/reflections/ReflectionsSubClass.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/specialcharactersql/RunSpecialCharacters.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxCalculator.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/taxcalculator/TaxCalculator.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/exelfile/FruitColorBO.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/logdemo/LogDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="threadName.equalsIgnoreCase(&quot;secondt&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/synchronization/ThreadDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/pdfmaker/smallpdf/SamplePdfProcesses.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/nio/PathFileDemo.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/csv/CsvBO.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/UUID/UuidDemo.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -3,19 +3,17 @@ package org.adv.dto;
 public class Employee {
     private String name;
     private String lname;
-    private String age;
+    private int age;
     private int salary;
 
     public Employee() {
     }
 
-    public Employee(String name, String lname, String age) {
-        this.name = name;
-        this.lname = lname;
+    public Employee(int age) {
         this.age = age;
     }
 
-    public Employee(String name, String lname, String age, int salary) {
+    public Employee(String name, String lname, int age, int salary) {
         this.name = name;
         this.lname = lname;
         this.age = age;
@@ -38,11 +36,11 @@ public class Employee {
         this.lname = lname;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -53,4 +51,21 @@ public class Employee {
     public void setSalary(int salary) {
         this.salary = salary;
     }
+
+    class Department {
+        private String name;
+
+        public Department(String name) {
+            this.name = name;
+        }
+    }
+
+    class Tasks {
+        private String name;
+
+        public Tasks(String name) {
+            this.name = name;
+        }
+    }
+
 }
