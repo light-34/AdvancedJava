@@ -202,3 +202,7 @@ java.io.IOException: 'head' table is mandatory
 2024-11-12 14:40:53 [main] WARN  org.apache.pdfbox.pdmodel.PDDocument - You are overwriting the existing file this1.pdf, this will produce a corrupted file if you're also reading from it  - org.apache.pdfbox.pdmodel.PDDocument.save(PDDocument.java:981) 
 2024-11-12 15:06:55 [main] WARN  org.apache.pdfbox.pdmodel.PDDocument - You are overwriting the existing file this1.pdf, this will produce a corrupted file if you're also reading from it  - org.apache.pdfbox.pdmodel.PDDocument.save(PDDocument.java:981) 
 2024-12-09 08:53:20 [main] WARN  org.adv.UUID.UuidDemo - Info message Logged 9e2c58c0-8de5-49eb-83ee-8707d0d08db1  - org.adv.UUID.UuidDemo.main(UuidDemo.java:19) 
+2025-05-21 17:39:07 [main] WARN  org.adv.UUID.UuidDemo - Info message Logged 4b10dbbb-bfb0-41e4-a987-d85a668a4b56  - org.adv.UUID.UuidDemo.main(UuidDemo.java:19) 
+2025-05-21 17:40:11 [main] WARN  org.adv.UUID.UuidDemo - Info message Logged 44b34e0e-aa64-4cc1-9d8d-ac7e4f410de1  - org.adv.UUID.UuidDemo.main(UuidDemo.java:19) 
+2025-06-16 17:27:21 [main] WARN  org.adv.datetime.DateTimeDemoNew - Process cant be blank  - org.adv.datetime.DateTimeDemoNew.generateDateInterval(DateTimeDemoNew.java:166) 
+2025-06-16 17:34:08 [main] WARN  org.adv.datetime.DateTimeDemoNew - Days cant be zero or negative. Days = 0  - org.adv.datetime.DateTimeDemoNew.generateDateInterval(DateTimeDemoNew.java:170) 

@@ -50,11 +50,9 @@ public class DateTimeDemo {
 //
 //        System.out.println(getEpochSeconds(now));
 
-        System.out.println(convertUnixTimestampToFormattedDateTime("1746456347")); //2025-06-12 14:02:54
-        System.out.println(convertUnixTimestampToFormattedDateTime("1746131851"));
-        System.out.println(convertUnixTimestampToFormattedDateTime("1746131031"));
+        System.out.println(convertUnixTimestampToFormattedDateTime("1761831801")); //2025-06-12 14:02:54
 
-        generateDateInterval(1, "minus").forEach(System.out::println);
+
 
 
 
