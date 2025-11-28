@@ -77,4 +77,9 @@ public class TaxCalculator {
         return income * percent;
     }
 
+    public static double simpleTaxCalculator(double income) {
+        return (income * 0.13) + income;
+    }
+
+
 }
