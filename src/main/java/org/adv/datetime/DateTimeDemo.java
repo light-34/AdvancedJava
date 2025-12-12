@@ -52,7 +52,9 @@ public class DateTimeDemo {
 
         //System.out.println(convertUnixTimestampToFormattedDateTime("1761831801")); //2025-06-12 14:02:54
 
-        System.out.println(utcToEstConverter(LocalDateTime.of(2025, 1, 6, 17, 24, 6)));
+        System.out.println(DateTimeDemoNew.convertStringOfEpochSeconds(1746552208L));
+
+        //System.out.println(utcToEstConverter(LocalDateTime.of(2025, 1, 6, 17, 24, 6)));
 
     }
 }
