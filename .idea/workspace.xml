@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="new data added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/records/FirstRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/records/RecordDemo.java" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="records added and some other features">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/comparator/ComparatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/comparator/ComparatorMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/html_xml/HtmlXmlGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/html_xml/HtmlXmlMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/LoggingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/ProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/json/JsonNodeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/json/JsonNodeMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/timepackage/JavaTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/timepackage/JavaTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +28,15 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="335" />
+    <option name="cachedIndexableFilesCount" value="345" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Python Script" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,6 +66,7 @@
     "Application.CalculateDailyProfit.executor": "Debug",
     "Application.CollectionsDemo.executor": "Run",
     "Application.CommonSanitazing.executor": "Debug",
+    "Application.ComparatorMain.executor": "Run",
     "Application.CsvMain.executor": "Debug",
     "Application.DateTimeDemo.executor": "Run",
     "Application.DecimalFormatiingDemo.executor": "Debug",
@@ -70,11 +78,13 @@
     "Application.GoogleList.executor": "Run",
     "Application.GuavaCacheDemo.executor": "Run",
     "Application.GuavaMath.executor": "Run",
+    "Application.HtmlXmlMain.executor": "Run",
     "Application.ITextDemo.executor": "Run",
     "Application.IfTryDemo.executor": "Run",
     "Application.ImageMain.executor": "Debug",
     "Application.IntSummaryStatDemo.executor": "Debug",
     "Application.JavaTimeDemo.executor": "Run",
+    "Application.JsonNodeDemo.executor": "Debug",
     "Application.LabelsDemo.executor": "Run",
     "Application.ListIteratorDemo.executor": "Run",
     "Application.LogDemo.executor": "Run",
@@ -89,6 +99,7 @@
     "Application.PhoneNumberFormatter.executor": "Run",
     "Application.PictureEndocerDemo.executor": "Debug",
     "Application.PosixFilePermisionsDemo.executor": "Run",
+    "Application.ProxyDemo.executor": "Run",
     "Application.ReadYamlDemo.executor": "Run",
     "Application.RecordDemo.executor": "Run",
     "Application.ReflectionDemo.executor": "Debug",
@@ -150,13 +161,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecordDemo">
-    <configuration name="CommonSanitazing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.sanitazing.CommonSanitazing" />
+  <component name="RunManager" selected="Application.HtmlXmlMain">
+    <configuration name="ComparatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.comparator.ComparatorMain" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.sanitazing.*" />
+          <option name="PATTERN" value="org.adv.comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.datetime.DateTimeDemo" />
+    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.stream.FunctionDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.datetime.*" />
+          <option name="PATTERN" value="org.adv.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.googlecommon.GoogleList" />
+    <configuration name="HtmlXmlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.html_xml.HtmlXmlMain" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.googlecommon.*" />
+          <option name="PATTERN" value="org.adv.html_xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecordDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.records.RecordDemo" />
+    <configuration name="JsonNodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.json.JsonNodeDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.records.*" />
+          <option name="PATTERN" value="org.adv.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.taxcalculator.TaxationMain" />
+    <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.invocation_handler.ProxyDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.taxcalculator.*" />
+          <option name="PATTERN" value="org.adv.invocation_handler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RecordDemo" />
-        <item itemvalue="Application.DateTimeDemo" />
-        <item itemvalue="Application.TaxationMain" />
-        <item itemvalue="Application.CommonSanitazing" />
-        <item itemvalue="Application.GoogleList" />
+        <item itemvalue="Application.HtmlXmlMain" />
+        <item itemvalue="Application.ProxyDemo" />
+        <item itemvalue="Application.ComparatorMain" />
+        <item itemvalue="Application.JsonNodeDemo" />
+        <item itemvalue="Application.FunctionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +471,16 @@
       <workItem from="1764092333536" duration="929000" />
       <workItem from="1764358812832" duration="1746000" />
       <workItem from="1764598044876" duration="1053000" />
-      <workItem from="1765557137374" duration="301000" />
+      <workItem from="1765557137374" duration="511000" />
+      <workItem from="1766067521273" duration="886000" />
+      <workItem from="1768338237220" duration="1006000" />
+      <workItem from="1768396762488" duration="5905000" />
+      <workItem from="1768509673270" duration="1132000" />
+      <workItem from="1768918413739" duration="2943000" />
+      <workItem from="1768922808588" duration="2532000" />
+      <workItem from="1770826616943" duration="269000" />
+      <workItem from="1773065573428" duration="80000" />
+      <workItem from="1773255894847" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -586,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764358866348</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="records added and some other features">
+      <option name="closed" value="true" />
+      <created>1765557641014</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765557641014</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +650,8 @@
     <MESSAGE value="google lists added." />
     <MESSAGE value="all changes added" />
     <MESSAGE value="new data added." />
-    <option name="LAST_COMMIT_MESSAGE" value="new data added." />
+    <MESSAGE value="records added and some other features" />
+    <option name="LAST_COMMIT_MESSAGE" value="records added and some other features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,6 +731,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/adv/datetime/DateTimeDemoNew.java</url>
           <line>176</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/json/JsonNodeMethods.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/LoggingHandler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

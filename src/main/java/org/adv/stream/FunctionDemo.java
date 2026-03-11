@@ -42,20 +42,24 @@ public class FunctionDemo {
 //        String cez = StringUtils.join(Collections.nCopies(5, "?"), ",");
         //System.out.println(cez);
 
-        Double[] arr2 = {11.0, 12.1, 13.4, 14.3, 15.2, 16.7, 17.3, 18.2, 19.1, 20.6};
-        List<Double> doubles = StreamDemo.convertArrayToList(arr2);
-        doubles.forEach(System.out::println);
+//        Double[] arr2 = {11.0, 12.1, 13.4, 14.3, 15.2, 16.7, 17.3, 18.2, 19.1, 20.6};
+//        List<Double> doubles = StreamDemo.convertArrayToList(arr2);
+//        doubles.forEach(System.out::println);
+//
+//        String[] arr = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
+//        List<String> strings = StreamDemo.convertArrayToList(arr);
+//        strings.forEach(System.out::println);
+//
+//        StreamDemo.functionIdentityExample(strings)
+//                .forEach((key, value) -> System.out.println(key + " : " + value));
+//
+//        List<Person> persons = List.of(new Person("Muhsin", 23), new Person("Cezmi", 24), new Person("Ali", 25));
+//        Map<Integer, Person> personMap = persons.stream().collect(Collectors.toMap(Person::age, Function.identity()));
+//        personMap.forEach((key, value) -> System.out.println(key + " : " + value.name + " : " + value.age));
 
-        String[] arr = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
-        List<String> strings = StreamDemo.convertArrayToList(arr);
-        strings.forEach(System.out::println);
-
-        StreamDemo.functionIdentityExample(strings)
-                .forEach((key, value) -> System.out.println(key + " : " + value));
-
-        List<Person> persons = List.of(new Person("Muhsin", 23), new Person("Cezmi", 24), new Person("Ali", 25));
-        Map<Integer, Person> personMap = persons.stream().collect(Collectors.toMap(Person::age, Function.identity()));
-        personMap.forEach((key, value) -> System.out.println(key + " : " + value.name + " : " + value.age));
+        List<String> list = Arrays.asList("One", "Two", "Three", " ", "Four", "Five", "Six","", "Seven", "Eight", "Nine");
+        String joinedList = list.stream().filter(s -> !s.isBlank()).collect(Collectors.joining(", "));
+        System.out.println(joinedList);
 
     }
 }
