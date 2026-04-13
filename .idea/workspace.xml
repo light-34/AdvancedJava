@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="records added and some other features">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/comparator/ComparatorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/comparator/ComparatorMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/html_xml/HtmlXmlGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/html_xml/HtmlXmlMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/LoggingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/MessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/ProxyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/json/JsonNodeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/json/JsonNodeMethods.java" afterDir="false" />
+    <list default="true" id="8acdd9b4-e762-4507-bf38-518ec11b8693" name="Changes" comment="Jsoup added to the library with example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/adv/json/BeanFieldGet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/stream/FunctionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/adv/pictureprocess/PictureEndocerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/adv/pictureprocess/PictureEndocerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +19,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="345" />
+    <option name="cachedIndexableFilesCount" value="348" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -47,6 +38,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -62,6 +57,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AutomobilesMain.executor": "Run",
+    "Application.BeanFieldGet.executor": "Run",
     "Application.BufferedMain.executor": "Run",
     "Application.CalculateDailyProfit.executor": "Debug",
     "Application.CollectionsDemo.executor": "Run",
@@ -125,6 +121,7 @@
     "JUnit.UnitTestTest.testIsEqual.executor": "Run",
     "JUnit.UnitTestTest.testIsEqualFalse.executor": "Run",
     "JUnit.UnitTestTest.testThrowable.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -152,6 +149,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1777723274131" />
+    <option name="spentUsd" value="0.0100368" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="8" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.adv.pdfmaker" />
@@ -161,13 +165,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/adv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HtmlXmlMain">
-    <configuration name="ComparatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.comparator.ComparatorMain" />
+  <component name="RunManager" selected="Application.PictureEndocerDemo">
+    <configuration name="BeanFieldGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.json.BeanFieldGet" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.comparator.*" />
+          <option name="PATTERN" value="org.adv.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.stream.FunctionDemo" />
+    <configuration name="ComparatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.comparator.ComparatorMain" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.stream.*" />
+          <option name="PATTERN" value="org.adv.comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonNodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.adv.json.JsonNodeDemo" />
+    <configuration name="PictureEndocerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.adv.pictureprocess.PictureEndocerDemo" />
       <module name="advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.adv.json.*" />
+          <option name="PATTERN" value="org.adv.pictureprocess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,18 +233,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PictureEndocerDemo" />
+        <item itemvalue="Application.BeanFieldGet" />
         <item itemvalue="Application.HtmlXmlMain" />
         <item itemvalue="Application.ProxyDemo" />
         <item itemvalue="Application.ComparatorMain" />
-        <item itemvalue="Application.JsonNodeDemo" />
-        <item itemvalue="Application.FunctionDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -480,7 +484,9 @@
       <workItem from="1768922808588" duration="2532000" />
       <workItem from="1770826616943" duration="269000" />
       <workItem from="1773065573428" duration="80000" />
-      <workItem from="1773255894847" duration="820000" />
+      <workItem from="1773255894847" duration="923000" />
+      <workItem from="1775581558632" duration="202000" />
+      <workItem from="1776092583500" duration="3041000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit on This project">
       <created>1698071188961</created>
@@ -614,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765557641014</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Jsoup added to the library with example">
+      <option name="closed" value="true" />
+      <created>1773256812668</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1773256812668</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +665,8 @@
     <MESSAGE value="all changes added" />
     <MESSAGE value="new data added." />
     <MESSAGE value="records added and some other features" />
-    <option name="LAST_COMMIT_MESSAGE" value="records added and some other features" />
+    <MESSAGE value="Jsoup added to the library with example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jsoup added to the library with example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,6 +756,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/adv/invocation_handler/LoggingHandler.java</url>
           <line>14</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/adv/pictureprocess/PictureEndocerDemo.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
