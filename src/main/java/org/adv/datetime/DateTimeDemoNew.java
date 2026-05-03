@@ -48,6 +48,15 @@ public class DateTimeDemoNew {
         return db2Time;
     }
 
+    public static String convertStringOfEpochSeconds(Long epochSeconds) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DASHED_DATE);
+        //LocalDateTime localDateTime = LocalDateTime.ofEpochSecond(Long.parseLong(epochSeconds), 0, ZoneOffset.UTC);
+        Instant instant = Instant.ofEpochSecond(epochSeconds);
+        LocalDate localDate = instant.atZone(ZoneOffset.UTC).toLocalDate();
+        return localDate.toString();
+
+    }
+
     public static LocalDateTime getCurrentDateTime() {
 
         ZonedDateTime zonedDateTime = ZonedDateTime.now(ZONE);
@@ -199,48 +208,48 @@ public class DateTimeDemoNew {
         return estDateTime.toLocalDateTime();
     }
 
-    public static void processFilterData(GenericListSearchTO searchTO) {
-        List<Map<String, Object>> filterData = searchTO.getFilterData().stream().flatMap(e -> {
-            List<Map<String, Object>> nestedFilters;
-            if (e.get("field").equals("AND") || e.get("field").equals("OR")) {
-                nestedFilters = (List<Map<String, Object>>) e.get("value");
-                addDupplicte(nestedFilters);
-                e.put("value", nestedFilters);
-                return Stream.of(e);
-            } else {
-                nestedFilters = new ArrayList<>();
-                nestedFilters.add(e);
-                nestedFilters = addDupplicte(nestedFilters);
-                return Stream.of(e);
-            }
-        }).toList();
-
-        searchTO.setFilterData(filterData);
-    }
-
-    private static List<Map<String, Object>> addDupplicte(List<Map<String, Object>> filters) {
-        return filters.stream().flatMap(filter -> {
-            String field = (String) filter.get("field");
-            String op = (String) filter.get("op");
-            if ((field.equals("update_utimestamp") || field.equals("create_utimestamp")) && !op.equals(">=")) {
-                //update operation
-                filter.put("op", ">=");
-                String value = (String) filter.get("value");
-                value = updateDate(value);
-                //add duplicate of filter with new value and operation
-                return Stream.of(filter, DAOHelper.buildFilter(field, op, "<", value));
-            }
-            return Stream.of(filter);
-        }).toList();
-    }
-
-    private static String updateDate(String date) {
-        try {
-            LocalDate localDate = LocalDate.parse(date);
-            return localDate.plusDays(1).toString();
-        } catch (Exception e) {
-            LOG.atError().withThrowable(e).log("Error parsing date.");
-            return date;
-        }
-    }
+//    public static void processFilterData(GenericListSearchTO searchTO) {
+//        List<Map<String, Object>> filterData = searchTO.getFilterData().stream().flatMap(e -> {
+//            List<Map<String, Object>> nestedFilters;
+//            if (e.get("field").equals("AND") || e.get("field").equals("OR")) {
+//                nestedFilters = (List<Map<String, Object>>) e.get("value");
+//                addDupplicte(nestedFilters);
+//                e.put("value", nestedFilters);
+//                return Stream.of(e);
+//            } else {
+//                nestedFilters = new ArrayList<>();
+//                nestedFilters.add(e);
+//                nestedFilters = addDupplicte(nestedFilters);
+//                return Stream.of(e);
+//            }
+//        }).toList();
+//
+//        searchTO.setFilterData(filterData);
+//    }
+//
+//    private static List<Map<String, Object>> addDupplicte(List<Map<String, Object>> filters) {
+//        return filters.stream().flatMap(filter -> {
+//            String field = (String) filter.get("field");
+//            String op = (String) filter.get("op");
+//            if ((field.equals("update_utimestamp") || field.equals("create_utimestamp")) && !op.equals(">=")) {
+//                //update operation
+//                filter.put("op", ">=");
+//                String value = (String) filter.get("value");
+//                value = updateDate(value);
+//                //add duplicate of filter with new value and operation
+//                return Stream.of(filter, DAOHelper.buildFilter(field, op, "<", value));
+//            }
+//            return Stream.of(filter);
+//        }).toList();
+//    }
+//
+//    private static String updateDate(String date) {
+//        try {
+//            LocalDate localDate = LocalDate.parse(date);
+//            return localDate.plusDays(1).toString();
+//        } catch (Exception e) {
+//            LOG.atError().withThrowable(e).log("Error parsing date.");
+//            return date;
+//        }
+//    }
 }
