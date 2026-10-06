@@ -46,7 +46,7 @@ public class ListDemo {
         //System.out.println(writeMessage(new String[]{}));
 
 
-        List<Integer> intList = new ArrayList<>();
+        /*List<Integer> intList = new ArrayList<>();
         int recordNumber = 122;
         for (int i = 0; i < recordNumber; i++) {
             intList.add(i);
@@ -68,12 +68,15 @@ public class ListDemo {
         Object[] params = new Object[intList.size()];
         Arrays.fill(params, "A");
 
-        Arrays.stream(params).forEach(System.out::print);
+        Arrays.stream(params).forEach(System.out::print);*/
 
 
         /*String str = "SRSMA.WCS1300";
         String[] arr = str.split("\\.");
         System.out.println(arr[0] + " and length : " + arr.length);*/
+
+        List<String> strList = new ArrayList<>();
+        System.out.println(strList.size());
 
     }
 

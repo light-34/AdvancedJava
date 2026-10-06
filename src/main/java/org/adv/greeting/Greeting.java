@@ -5,5 +5,5 @@ package org.adv.greeting;
  */
 @FunctionalInterface
 public interface Greeting {
-    void printMessage();
+    String printMessage();
 }
