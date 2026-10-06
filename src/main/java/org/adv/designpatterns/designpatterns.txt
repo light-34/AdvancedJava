@@ -1,0 +1,35 @@
+Software design patterns are reusable, conceptual templates that solve recurring architectural and design problems in software engineering. Popularized by the "Gang of Four" (GoF) in their seminal 1994 book, these patterns provide a blueprint for writing flexible, maintainable, and understandable code. They represent best practices refined over decades of object-oriented development rather than ready-to-paste snippets.
+The classic 23 Gang of Four patterns are organized into three distinct categories based on their core architectural intent:
+🧱 Creational Patterns
+Creational patterns focus on object instantiation mechanisms. They isolate a system from how its objects are created, composed, and represented, providing control and flexibility over standard initialization processes.
+• Factory Method: Defines an interface for creating a single object but lets subclasses decide which exact class to instantiate.
+• Abstract Factory: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+• Builder: Separates the construction of a complex object from its representation, allowing the same construction process to create different outcomes.
+• Singleton: Restricts a class to a single global instance and provides a centralized access point to it.
+• Prototype: Creates new objects by copying an existing object (a prototype) rather than creating them from scratch.
+🕸️ Structural Patterns
+Structural patterns focus on class and object composition. They explain how to assemble smaller components into larger, more flexible, and efficient structures without losing organizational clarity.
+• Adapter: Acts as a bridge between two incompatible interfaces, allowing them to work together.
+• Decorator: Dynamically attaches new responsibilities and behaviors to an object without altering its original structure.
+• Facade: Provides a simplified, high-level interface to a complex subsystem or set of classes.
+• Composite: Composes objects into tree structures to represent part-whole hierarchies, treating individual objects and compositions uniformly.
+• Proxy: Provides a placeholder or surrogate object to control or intercept access to another object.
+• Bridge: Separates an object’s abstraction from its implementation so that the two can vary independently.
+• Flyweight: Minimizes memory usage by sharing as much data as possible with similar objects.
+🔄 Behavioral Patterns
+Behavioral patterns deal specifically with algorithms, communication, and assignment of responsibilities between objects. They optimize how data and workflows move smoothly through an application.
+• Observer: Establishes a one-to-many subscription model, notifying multiple dependent objects instantly of any state changes.
+• Strategy: Defines a family of interchangeable algorithms and allows a client to switch between them seamlessly at runtime.
+• Command: Encapsulates a request as an independent object, supporting action queuing, logging, and undo/redo operations.
+• State: Allows an object to alter its behavior dynamically when its internal state changes.
+• Template Method: Defines the skeleton of an algorithm in a base class, deferring specific steps to subclasses without overriding the core structure.
+• Chain of Responsibility: Passes a request along a chain of handlers until one handles it, decoupling senders and receivers.
+• Iterator: Provides a way to sequentially access elements of a collection without exposing its underlying structure.
+• Mediator: Restricts direct communication between objects, forcing them to collaborate through a central mediator object to reduce coupling.
+• Memento: Captures and stores an object's internal state so it can be restored later without violating encapsulation.
+• Visitor: Places new operations into a separate class, allowing you to execute them across an existing object structure without altering the original classes.
+⚖️ Summary Comparison
+Category	Primary Focus	Key Benefit	Example Use Case
+Creational	How objects get created	Hides creation logic and controls instantiation.	Initializing a shared database connection pool.
+Structural	How objects are organized	Connects distinct interfaces smoothly.	Wrapping a third-party API to fit an existing internal interface.
+Behavioral	How objects talk to each other	Streamlines complex workflows and event-handling.
